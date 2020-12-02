@@ -1,6 +1,6 @@
 require 'pry'
 def reverse_each_word(sentence)
-  sentence = ""
+  element = ""
   sentence.each do |element|
     element.reverse 
   end 
