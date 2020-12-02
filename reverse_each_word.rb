@@ -1,7 +1,6 @@
 require 'pry'
 def reverse_each_word(string)
-  string.each do |element|
-    binding.pry
+  string.collect do |element|
     puts element
   end 
 end 
