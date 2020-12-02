@@ -2,6 +2,6 @@ require 'pry'
 def reverse_each_word(sentence)
   new_arr = sentence.split
   new_arr.collect do |element|
-    element.reverse.join 
+    element.reverse.to_s
   end
 end 
