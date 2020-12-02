@@ -1,5 +1,6 @@
 require 'pry'
 def reverse_each_word(sentence)
-  sentence.collect do |element|
+  sentence.each do |element|
+    puts ["#{element}"]
   end 
 end 
