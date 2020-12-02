@@ -5,7 +5,5 @@ def reverse_each_word(sentence)
   split_str.each do |element|
    rev_ele = element.reverse + " "
    new_arr.push(rev_ele)
-   binding.pry 
   end
-  
 end 
