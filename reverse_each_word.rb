@@ -6,4 +6,5 @@ def reverse_each_word(sentence)
     binding.pry 
   end
   new_str = rev_ele + rev_ele
+  binding.pry 
 end 
