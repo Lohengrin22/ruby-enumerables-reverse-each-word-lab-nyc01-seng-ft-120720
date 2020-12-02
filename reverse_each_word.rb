@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
   new_arr.collect do |element|
     rev_arr = element.reverse 
     rev_arr.each do |int_ele|
-      int_ele.to_s
+      
     end 
   end
 end 
